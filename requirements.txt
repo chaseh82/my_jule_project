@@ -1,5 +1,8 @@
 pandas
+numpy==1.26.4
 akshare
 openpyxl
 pytest
 pytest-mock
+pandas-ta
+setuptools

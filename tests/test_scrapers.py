@@ -1,11 +1,6 @@
 import pandas as pd
 import pytest
 from unittest.mock import MagicMock
-import sys
-import os
-
-# Add project root to the Python path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from scrapers.market_scraper import get_all_market_symbols
 from scrapers.stock_scraper import fetch_stock_data, _is_hk_stock
